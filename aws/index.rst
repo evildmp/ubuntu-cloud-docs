@@ -27,16 +27,22 @@ Canonical's offerings on AWS
 Ubuntu images
 ~~~~~~~~~~~~~
 
-..  grid:: 1 1 2 2
+We provide images for:
 
-   ..  grid-item:: 
-       **EC2 Images:** Customised Ubuntu Amazon Machine Images (AMIs) are available for Elastic Compute Cloud (EC2) instances. These AMIs are based on an AWS-optimised kernel, which includes improved device drivers and out of the box support for accelerators like GPUs. 
+* **EC2** - these are customised machine images (AMIs), based on an AWS-optimised kernel. Includes improved device drivers 
+  and out of the box support for accelerators like GPUs.
 
-   ..  grid-item:: 
-      **EKS Images:** Canonical works with the Elastic Kubernetes Services (EKS) team to provide an optimised Ubuntu AMI for running Kubernetes on AWS. The AMI uses a slimmed-down, minimal image, a custom kernel and is optimised for performance and security on EKS clusters.
-
+* **EKS** optimised AMIs for running Kubernetes, using a custom kernel. The image is slimmed-down and optimised for 
+  performance and security on EKS clusters.
 
 For each Ubuntu release, multiple Ubuntu images are delivered to AWS. This could be based on the underlying architecture, required features, the storage type and the virtualisation type that is used. For example, a non-exhaustive list is:
+
+* **architectures** - AMD64, ARM64, Graviton
+* **Ubuntu image types** - server, minimal
+* etc...
+* **support/security compliance level** - standard, Ubuntu Pro, Ubuntu Pro FIPS
+
+Read more about the available image types.
 
 .. list-table::
    :stub-columns: 1
